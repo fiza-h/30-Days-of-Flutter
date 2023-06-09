@@ -13,9 +13,7 @@ class HomePage extends StatelessWidget {
     var day = 5;
 
     return Scaffold(
-      appBar: AppBar(
-        title: const Text("Catalog App"),
-      ),
+      appBar: AppBar(title: const Text("Catalog App")),
       body: Center(
         child: Container(
           child: Text("Welcome to $days days of Flutter by $name"),
