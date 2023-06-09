@@ -9,7 +9,7 @@ class LoginPage extends StatefulWidget {
 }
 
 class _LoginPageState extends State<LoginPage> {
-  String name = "";
+  static String name = "";
   bool changeButton = false;
   final _formKey = GlobalKey<FormState>();
 
